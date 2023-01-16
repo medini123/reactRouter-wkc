@@ -21,7 +21,7 @@ function App() {
     <div className="div">
     <Routes>
 
-    <Route path="/" element={<Layout/>} >
+    <Route path="/" element={<Layout setRating={setRating} setSearch={setSearch} />} >
 
     <Route path="home" element={<HomePage />}/>
     <Route path="Series" 
