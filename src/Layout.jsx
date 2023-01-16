@@ -6,10 +6,9 @@ import Footer from './components/Footer';
 
 
 
-function Layout() {
+function Layout({setSearch, setRating) {
 
-  const [search, setSearch] = useState("");
-  const [rating, setRating] = useState(0);
+ 
     
   return (
     <div>
