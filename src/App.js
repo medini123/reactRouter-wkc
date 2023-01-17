@@ -22,7 +22,7 @@ function App() {
     <Routes>
 
     <Route path="/" element={<Layout setRating={setRating} setSearch={setSearch} />} >
-
+     <Route index element={<HomePage />}/>
     <Route path="home" element={<HomePage />}/>
     <Route path="Series" 
            element={
