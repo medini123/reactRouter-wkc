@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 
 
-function Layout({setSearch, setRating)} {
+function Layout({setSearch, setRating}) {
 
  
     
